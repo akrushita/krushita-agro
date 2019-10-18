@@ -1,5 +1,6 @@
 {
   "homepage": "http://akrushita.github.io/krushita-agro",
+  "name": "krushita-agro",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
