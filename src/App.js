@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         Krushita launch soon.
+        We are coming soon................
         </a>
       </header>
     </div>
