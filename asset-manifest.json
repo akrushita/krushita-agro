@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/krushita-agro/static/css/main.8f0eaac6.chunk.css",
-    "main.js": "/krushita-agro/static/js/main.cf0c5afc.chunk.js",
-    "main.js.map": "/krushita-agro/static/js/main.cf0c5afc.chunk.js.map",
+    "main.js": "/krushita-agro/static/js/main.e3cc670b.chunk.js",
+    "main.js.map": "/krushita-agro/static/js/main.e3cc670b.chunk.js.map",
     "runtime-main.js": "/krushita-agro/static/js/runtime-main.90c36fde.js",
     "runtime-main.js.map": "/krushita-agro/static/js/runtime-main.90c36fde.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/krushita-agro/static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.75b144ee.chunk.js": "/krushita-agro/static/js/2.75b144ee.chunk.js",
     "static/js/2.75b144ee.chunk.js.map": "/krushita-agro/static/js/2.75b144ee.chunk.js.map",
     "index.html": "/krushita-agro/index.html",
-    "precache-manifest.5d0305da3390401702471d04b12004de.js": "/krushita-agro/precache-manifest.5d0305da3390401702471d04b12004de.js",
+    "precache-manifest.8963a6422cb15881c77e0f8d247cd088.js": "/krushita-agro/precache-manifest.8963a6422cb15881c77e0f8d247cd088.js",
     "service-worker.js": "/krushita-agro/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/krushita-agro/static/css/2.b0bb7f2c.chunk.css.map",
     "static/css/main.8f0eaac6.chunk.css.map": "/krushita-agro/static/css/main.8f0eaac6.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.75b144ee.chunk.js",
     "static/css/main.8f0eaac6.chunk.css",
-    "static/js/main.cf0c5afc.chunk.js"
+    "static/js/main.e3cc670b.chunk.js"
   ]
 }

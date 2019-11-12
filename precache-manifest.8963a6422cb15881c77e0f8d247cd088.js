@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ebe2d9db5a951177ce62f9bc4b5b5840",
+    "revision": "bedc03e138365aa296637303f0036ea9",
     "url": "/krushita-agro/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/krushita-agro/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "07209101350538701d49",
+    "revision": "c1de6d6873e280746b8e",
     "url": "/krushita-agro/static/css/main.8f0eaac6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/krushita-agro/static/js/2.75b144ee.chunk.js"
   },
   {
-    "revision": "07209101350538701d49",
-    "url": "/krushita-agro/static/js/main.cf0c5afc.chunk.js"
+    "revision": "c1de6d6873e280746b8e",
+    "url": "/krushita-agro/static/js/main.e3cc670b.chunk.js"
   },
   {
     "revision": "54553d7f96eee77d826d",
