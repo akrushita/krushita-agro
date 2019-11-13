@@ -19,6 +19,7 @@ function App() {
       </div>
       <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
       <p class="mt-5 mb-3 text-muted">&copy; 2018-2019</p>
+      <p class="mt-5 mb-3 text-muted">Created By Bizexo</p>
           </form>
 </div>
   );
