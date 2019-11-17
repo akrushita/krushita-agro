@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/krushita-agro/precache-manifest.0d17107bec390b917da664dcf028289f.js"
+  "/krushita-agro/precache-manifest.1b1c85e9c25c71a9429de61518c5eed0.js"
 );
 
 self.addEventListener('message', (event) => {
