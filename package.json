@@ -15,7 +15,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "add":"git add .",
+    "comment": "git commit -m 'Changes merge'",
+    "push":"git push origin master"
   },
   "eslintConfig": {
     "extends": "react-app"

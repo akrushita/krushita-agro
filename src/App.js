@@ -1,28 +1,66 @@
-import React from 'react';
 import logo from './logo.png';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-     <form className="form-signin">
-       <img src={logo} className="App-logo" alt="logo" />
-       <label for="inputEmail" class="sr-only">Email address</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus/>
-      <label for="inputPassword" class="sr-only">Password</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required/>
-      <div class="checkbox mb-3">
-        <label>
-          <input type="checkbox" value="remember-me"/> Remember me
-        </label>
-      </div>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      <p class="mt-5 mb-3 text-muted">&copy; 2018-2019</p>
-      <p class="mt-5 mb-3 text-muted">Created By Bizexo</p>
-          </form>
-</div>
-  );
+export default class Create extends Component {
+  constructor(props) {
+      super(props);
+      this.onChangeEmail = this.onChangeEmail.bind(this);
+      this.onChangePassword = this.onChangePassword.bind(this);
+      this.onSubmit = this.onSubmit.bind(this);
+
+      this.state = {
+          email: '',
+          password: '',
+      }
+  }
+  onChangeEmail(e) {
+    this.setState({
+      email: e.target.value
+    });
+  }
+  onChangePassword(e) {
+    this.setState({
+      password: e.target.value
+    })
+  }
+
+  onSubmit(e) {
+    e.preventDefault();
+    this.setState({
+      email: '',
+      password: '',
+    })
+  }
+ 
+  render() {
+      return (
+          <div className="App">
+              <img src={logo} className="App-logo" alt="logo" />
+              <form onSubmit={this.onSubmit} className="form-signin">
+                  <div className="form-group">
+                      <label>Name:  </label>
+                      <input 
+                        type="text" 
+                        className="form-control" 
+                        value={this.state.email}
+                        onChange={this.onChangeEmail}
+                        />
+                  </div>
+                <div className="form-group">
+                      <label>Password: </label>
+                      <input type="password" 
+                        className="form-control"
+                        value={this.state.password}
+                        onChange={this.onChangePassword}
+                        />
+                  </div>
+                  <div className="form-group">
+                      <input type="submit" value="Register Business" className="btn btn-primary"/>
+                  </div>
+              </form>
+          </div>
+      )
+  }
 }
-
-export default App;
