@@ -16,9 +16,9 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "add":"git add .",
+    "add": "git add .",
     "comment": "git commit -m 'Changes merge'",
-    "push":"git push origin master"
+    "push": "git push origin master"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.1.1",
+    "nodemon": "^1.19.4"
   }
 }
